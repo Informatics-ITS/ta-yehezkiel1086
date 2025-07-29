@@ -18,11 +18,9 @@ regex_patterns = {
     "template_injection": re.compile(r"({{.*}}|<%.*?%>)", re.IGNORECASE),
 }
 
-# === File paths ===
-input_file = "datas/vps/tanner_report.json"
-output_file = "datas/vps/detected.json"
+input_file = "../datas/vps/tanner_report.json"
+output_file = "../datas/vps/detected.json"
 
-# === Process entries and apply detection ===
 detected_data = []
 
 with open(input_file, "r") as f:
@@ -40,12 +38,12 @@ with open(input_file, "r") as f:
                 for attack, pattern in regex_patterns.items():
                     if pattern.search(combined):
                         detection["name"] = attack
-                        break  # Stop after first match
+                        break
 
             detected_data.append(entry)
 
         except json.JSONDecodeError:
-            continue  # Skip invalid JSON lines
+            continue
 
 with open(output_file, "w") as f:
     for entry in detected_data:
