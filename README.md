@@ -1,22 +1,22 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: Yehezkiel Wiradhika
-**NRP**: 5025201086
-**Judul TA**: Analisis Data Serangan Web Honeypot: SNARE dan Tanner
-**Dosen Pembimbing**: Baskoro Adi Pratomo, S.Kom., M.Kom., Ph.D
-**Dosen Ko-pembimbing**: Hudan Studiawan, S.Kom., M.Kom.,Ph.D
+**Nama Mahasiswa**: Yehezkiel Wiradhika <br />
+**NRP**: 5025201086 <br />
+**Judul TA**: Analisis Data Serangan pada *Web Honeypot*: SNARE dan TANNER <br />
+**Dosen Pembimbing**: Baskoro Adi Pratomo, S.Kom., M.Kom., Ph.D <br />
+**Dosen Ko-pembimbing**: Hudan Studiawan, S.Kom., M.Kom., Ph.D
 
----
+<!-- --- -->
 
-## 📺 Demo Aplikasi  
-Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):  
+<!-- ## 📺 Demo Aplikasi   -->
+<!-- Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda): -->
 
 <!-- [![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)   -->
 <!-- *Klik gambar di atas untuk menonton demo* -->
 
----
+<!-- --- -->
 
-*Konten selanjutnya hanya merupakan contoh awalan yang baik. Anda dapat berimprovisasi bila diperlukan.*
+<!-- *Konten selanjutnya hanya merupakan contoh awalan yang baik. Anda dapat berimprovisasi bila diperlukan.* -->
 
 ## 🛠 Panduan Instalasi & Menjalankan Software
 
@@ -44,24 +44,26 @@ Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):
    cd [folder-proyek]
    pip install -r requirements.txt
    ```
-3. **Konfigurasi**
+<!-- 3. **Konfigurasi** -->
 <!-- - Salin/rename file .env.example menjadi .env
 - Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.) -->
-4. **Jalankan Aplikasi**
+3. **Jalankan Aplikasi**
    ```bash
-   python main.py  # Contoh untuk Python
+   docker compose up -d
    ```
-5. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
+4. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
 
----
+<!-- --- -->
 
 ## 📚 Dokumentasi Tambahan
 
 <!-- - [![Dokumentasi API]](docs/api.md) -->
-- [![Diagram Arsitektur]](docs/architecture.png)
-- [![Struktur Basis Data]](docs/database_schema.sql)
+Diagram arsitektur sistem:
 
----
+![Diagram Arsitektur](docs/sistem_diagram.png)
+<!-- - [![Struktur Basis Data]](docs/database_schema.sql) -->
+
+<!-- --- -->
 
 ## ✅ Validasi
 
@@ -71,7 +73,7 @@ Pastikan proyek memenuhi kriteria berikut sebelum submit:
 - README lengkap dan terupdate
 - Tidak ada data sensitif (password, API key) yang ter-expose
 
----
+<!-- --- -->
 
 ## ⁉️ Pertanyaan?
 
