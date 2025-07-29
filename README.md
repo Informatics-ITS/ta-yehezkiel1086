@@ -1,10 +1,10 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: [Nama Lengkap]  
-**NRP**: [Nomor Registrasi Pokok]  
-**Judul TA**: [Judul Tugas Akhir]  
-**Dosen Pembimbing**: [Nama Dosen]  
-**Dosen Ko-pembimbing**: [Nama Dosen]
+**Nama Mahasiswa**: Yehezkiel Wiradhika
+**NRP**: 5025201086
+**Judul TA**: Analisis Data Serangan Web Honeypot: SNARE dan Tanner
+**Dosen Pembimbing**: Baskoro Adi Pratomo, S.Kom., M.Kom., Ph.D
+**Dosen Ko-pembimbing**: Hudan Studiawan, S.Kom., M.Kom.,Ph.D
 
 ---
 
@@ -18,25 +18,31 @@ Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):
 
 *Konten selanjutnya hanya merupakan contoh awalan yang baik. Anda dapat berimprovisasi bila diperlukan.*
 
-## 🛠 Panduan Instalasi & Menjalankan Software  
+## 🛠 Panduan Instalasi & Menjalankan Software
 
 ### Prasyarat  
-- Daftar dependensi (contoh):
+- Daftar dependensi:
   - Python 3.10+
-  - Node.js v18+
-  - MySQL 8.0
-  - [Lainnya...]
+  - mlxtend
+  - psycopg2
+  - ipykernel 6.29.5
+  - scikit-learn 1.6.1
+  - pg8000 1.31.2 
+  - python-dotenv 1.1.0
+  - python-dateutil
+  - memory-profiler
+  - matplotlib
+  - seaborn
 
 ### Langkah-langkah  
 1. **Clone Repository**  
    ```bash
-   git clone https://github.com/Informatics-ITS/TA.git
+   git clone https://github.com/Informatics-ITS/ta-yehezkiel1086
    ```
 2. **Instalasi Dependensi**
    ```bash
    cd [folder-proyek]
-   pip install -r requirements.txt  # Contoh untuk Python
-   npm install  # Contoh untuk Node.js
+   pip install -r requirements.txt
    ```
 3. **Konfigurasi**
 - Salin/rename file .env.example menjadi .env
@@ -71,5 +77,5 @@ Pastikan proyek memenuhi kriteria berikut sebelum submit:
 ## ⁉️ Pertanyaan?
 
 Hubungi:
-- Penulis: [email@mahasiswa]
-- Pembimbing Utama: [email@pembimbing]
+- Penulis: yehezkielwiradhika@gmail.com
+- Pembimbing Utama: baskoro@its.ac.id
