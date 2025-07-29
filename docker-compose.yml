@@ -5,17 +5,16 @@ services:
     hostname: metabase
     volumes:
       - /dev/urandom:/dev/random:ro
-      # Optional: Persist Metabase config if using a custom one
       - metabase-data:/metabase-data
     ports:
       - 3000:3000
     environment:
-      MB_DB_TYPE: postgres
-      MB_DB_DBNAME: web_honeypot
-      MB_DB_PORT: 5432
-      MB_DB_USER: postgres
-      MB_DB_PASS: admin
-      MB_DB_HOST: postgres
+      MB_DB_TYPE: ${MB_DB_TYPE}
+      MB_DB_DBNAME: ${MB_DB_DBNAME}
+      MB_DB_PORT: ${MB_DB_PORT}
+      MB_DB_USER: ${MB_DB_USER}
+      MB_DB_PASS: ${MB_DB_PASS}
+      MB_DB_HOST: ${MB_DB_HOST}
     networks:
       - metanet1
     depends_on:
@@ -35,9 +34,9 @@ services:
     ports:
       - 5432:5432
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_DB: web_honeypot
-      POSTGRES_PASSWORD: admin
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     volumes:
       - pgdata:/var/lib/postgresql/data
     networks:
