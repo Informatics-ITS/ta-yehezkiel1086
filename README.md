@@ -6,15 +6,11 @@
 **Dosen Pembimbing**: Baskoro Adi Pratomo, S.Kom., M.Kom., Ph.D <br />
 **Dosen Ko-pembimbing**: Hudan Studiawan, S.Kom., M.Kom., Ph.D
 
-<!-- --- -->
-
 <!-- ## 📺 Demo Aplikasi   -->
 <!-- Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda): -->
 
 <!-- [![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)   -->
 <!-- *Klik gambar di atas untuk menonton demo* -->
-
-<!-- --- -->
 
 <!-- *Konten selanjutnya hanya merupakan contoh awalan yang baik. Anda dapat berimprovisasi bila diperlukan.* -->
 
@@ -40,20 +36,24 @@
    git clone https://github.com/Informatics-ITS/ta-yehezkiel1086
    ```
 2. **Instalasi Dependensi**
+
+   Windows:
    ```bash
    cd [folder-proyek]
+   python -m venv .venv
+   . .venv/Scripts/activate
    pip install -r requirements.txt
    ```
 <!-- 3. **Konfigurasi** -->
 <!-- - Salin/rename file .env.example menjadi .env
 - Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.) -->
-3. **Jalankan Aplikasi**
-   ```bash
-   docker compose up -d
-   ```
-4. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
+3. **Jalankan Aplikasi** <br />
+   untuk file berekstensi `.ipynb` bisa memilih kernel python yang telah dibuat dan diinstall `requirements.txt` kemudian run.
 
-<!-- --- -->
+   <!-- ```bash
+   docker compose up -d
+   ``` -->
+<!-- 4. Buka browser dan kunjungi: `http://localhost:3000` -->
 
 ## 📚 Dokumentasi Tambahan
 
@@ -63,17 +63,19 @@ Diagram arsitektur sistem:
 ![Diagram Arsitektur](docs/sistem_diagram.png)
 <!-- - [![Struktur Basis Data]](docs/database_schema.sql) -->
 
-<!-- --- -->
+Hasil Dashboard Metabase:
 
-## ✅ Validasi
+- [Frequent Pattern Analytics](docs/Web%20Honeypot%20Frequent%20Pattern%20Analytics.pdf)
+- [Statistical Analysis](docs/Web%20Honeypot%20Statistical%20Analytics.pdf)
+- [Frequent Pattern Tables](docs/Web%20Honeypot%20Frequent%20Pattern%20Tables.pdf)
+
+<!-- ## ✅ Validasi
 
 Pastikan proyek memenuhi kriteria berikut sebelum submit:
 - Source code dapat di-build/run tanpa error
 - Video demo jelas menampilkan fitur utama
 - README lengkap dan terupdate
-- Tidak ada data sensitif (password, API key) yang ter-expose
-
-<!-- --- -->
+- Tidak ada data sensitif (password, API key) yang ter-expose -->
 
 ## ⁉️ Pertanyaan?
 
