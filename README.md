@@ -11,8 +11,8 @@
 ## 📺 Demo Aplikasi  
 Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):  
 
-[![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)  
-*Klik gambar di atas untuk menonton demo*
+<!-- [![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)   -->
+<!-- *Klik gambar di atas untuk menonton demo* -->
 
 ---
 
@@ -45,12 +45,11 @@ Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):
    pip install -r requirements.txt
    ```
 3. **Konfigurasi**
-- Salin/rename file .env.example menjadi .env
-- Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.)
+<!-- - Salin/rename file .env.example menjadi .env
+- Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.) -->
 4. **Jalankan Aplikasi**
    ```bash
    python main.py  # Contoh untuk Python
-   npm start      # Contoh untuk Node.js
    ```
 5. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
 
@@ -58,7 +57,7 @@ Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):
 
 ## 📚 Dokumentasi Tambahan
 
-- [![Dokumentasi API]](docs/api.md)
+<!-- - [![Dokumentasi API]](docs/api.md) -->
 - [![Diagram Arsitektur]](docs/architecture.png)
 - [![Struktur Basis Data]](docs/database_schema.sql)
 
